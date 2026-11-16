@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.vivarium.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "RenderSystemMixin",
+    "SpriteContentsMixin",
+    "SpriteLoaderMixin",
+    "TextureAtlasMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
